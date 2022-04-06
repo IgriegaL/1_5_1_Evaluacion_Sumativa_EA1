@@ -104,3 +104,8 @@
 .blockquote-footer{
     color: white;
 }
+.img_review{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
