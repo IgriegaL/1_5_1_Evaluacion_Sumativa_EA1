@@ -1,274 +1,402 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-        .img_plant {
-            width: 100%;
-            height: 450px;	
-        }
-        .front-image1 {
-            background-image: url(https://media.admagazine.com/photos/61de539e089751617cd2fc74/16:9/w_2560%2Cc_limit/plantas.jpg) ;
-            background-size: cover;
-            background-position: center;
-        }
-        .front-image2 {
-            background-image: url(https://www.clara.es/medio/2022/03/16/plantas-de-interior-bonitas_ad98ca6d_1280x720.jpg) ;
-            background-size: cover;
-            background-position: center;
-        }
-        .front-image3 {
-            background-image: url(https://www.hogarmania.com/archivos/202105/plantas-jovenes-de-interior-y-exterior-plantadecor-1280x720x80xX.jpg) ;
-            background-size: cover;
-            background-position: center;
-        }
-        .img_boby_1 {
-            width: 100%;
-        }
-        .planta_store_1{
-            width: 100%;
-            height: 150px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url(https://www.elmueble.com/medio/2021/10/07/pilea-peperomioides_792ba786_900x1200.jpg);
-        }
-        .planta_store_2{
-            width: 100%;
-            height: 150px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url(https://www.elmueble.com/medio/2021/10/07/crasas-en-maceta_00483489_550de896_800x1200.jpg);
-        }
-        .planta_store_3{
-            width: 100%;
-            height: 150px;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url(https://www.elmueble.com/medio/2021/10/07/tronco-de-brasil-pinterest_82f72121_1000x1500.jpg);
-        }
-        .btn_inst{
-            background-color: #2A9D8F;
-        }
-        
-    </style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Lleva tu planta</title>
-  </head>
-  <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand ms-5" href="#">Tu planta Store</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse  justify-content-end" id="navbarScroll">
-                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Comprar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">seguimiento</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Donar</a>
-                  </li>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style/style.css">
 
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Encuentra tu planta" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-      </header>
-      <section class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="img_plant front-image1">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="img_plant front-image2">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="img_plant front-image3">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </section>
-      <section class="container mt-5">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <img src="https://media.architecturaldigest.com/photos/5dcde01c9f913a0008d4539a/master/w_1600,c_limit/Osofsky_Oct19-62.jpg" alt="Imagen" class="img_boby_1">
-            </div>
-            <div class="col-12 col-md-6">
-                 <div class="text-center">
-                  <h2 class="display-5">Bienvenidos a nuestra tienda, enterate de  nuestros servicio!</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus vero voluptate omnis optio nesciunt aspernatur accusamus! Fugit aliquam voluptatum laboriosam maxime vero. Deserunt unde dolorem velit adipisci quisquam sit vitae? Odio voluptas ratione, fugiat impedit suscipit exercitationem ea quidem!.</p>
-                 </div>
-  
-            </div>
+  <title>Lleva tu planta</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light btn_inst">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">Tu planta Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">seguimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Donar</a>
+            </li>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Encuentra tu planta" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
         </div>
-          
-      </section>
-      <section class="container-fluid">
-          <div class="row">
-              <h2 class="display-3 text-center my-5">Nuestros productos destacados</h2>
+      </div>
+    </nav>
+  </header>
+  <section class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="img_plant front-image1 row">
+            <div class="col-12 col-md-8 text_entry">
+              <h1 class="display-2">Llegaron nuevas plantas</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ducimus hic repellat, unde debitis, similique cum optio voluptate impedit doloremque quaerat pariatur nemo nostrum. Cum reprehenderit voluptas quam mollitia officiis.</p>
+            </div>
           </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary btn_inst">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_2"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Rosa de Alabastro</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary btn_inst">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_3"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Palo de agua</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary btn_inst">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img_plant front-image2 row">
+            <div class="col-12 col-md-8 text_entry">
+              <h1 class="display-2">Encuentra tu planta</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ducimus hic repellat, unde debitis, similique cum optio voluptate impedit doloremque quaerat pariatur nemo nostrum. Cum reprehenderit voluptas quam mollitia officiis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img_plant front-image3 row">
+            <div class="col-12 col-md-8 text_entry ">
+              <h1 class="display-2">Llegaron nuevas plantas</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ducimus hic repellat, unde debitis, similique cum optio voluptate impedit doloremque quaerat pariatur nemo nostrum. Cum reprehenderit voluptas quam mollitia officiis.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section class="container mt-5">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <img
+          src="https://media.architecturaldigest.com/photos/5dcde01c9f913a0008d4539a/master/w_1600,c_limit/Osofsky_Oct19-62.jpg"
+          alt="Imagen" class="img_boby_1">
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="text-center">
+          <h2 class="display-5">Bienvenidos a nuestra tienda, enterate de nuestros servicio!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus vero voluptate omnis optio
+            nesciunt aspernatur accusamus! Fugit aliquam voluptatum laboriosam maxime vero. Deserunt unde dolorem velit
+            adipisci quisquam sit vitae? Odio voluptas ratione, fugiat impedit suscipit exercitationem ea quidem!.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="container">
+    <div class="row">
+      <h2 class="display-3 text-center my-5">Nuestros productos destacados</h2>
+    </div>
+    <div class="row">
+      <div id="carouselExampleInterval" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="d-flex flex-row">
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_1"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary btn_inst">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_2"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card mx-auto shadow" style="width: 18rem;">
-                            <div class="planta_store_1"></div>
-                            <div class="card-body">
-                              <h5 class="card-title">Planta china del dinero</h5>
-                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit harum ad nemo nihil dolorum!</p>
-                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
-                          </div>
-                    </div>
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_3"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-      </section>
-      <section class="container">
-          <div class="row">
-              div.col-12.
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="d-flex flex-row">
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_4"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_5"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex flex-row shadow rounded-3 overflow-hidden">
+                <div class="planta_store_base planta_store_6"></div>
+                <div class="ps-2">
+                  <h5 class="card-title">Planta china del dinero</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+                    reprehenderit harum ad nemo nihil dolorum!</p>
+                  <button type="button" class="btn btn-primary c1_btn_inst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-bag-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z">
+                      </path>
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z">
+                      </path>
+                    </svg>
+                    Agregar al carro
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-      </section>
+        </div>
+        <button class="carousel-control-prev btn_inst" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <div class="img_tienda my-3"></div>
+  </section>
+  <section class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center mt-4">
+          <h3 class="display-3">Nuestra historia</h3>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fuga tenetur esse ipsum omnis est
+            rerum recusandae quis velit distinctio, sequi officiis error delectus. Saepe suscipit dolor aut dolores
+            ratione?</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Julia cervantes
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>A well-known quote, contained in a blockquote element.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Quote
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>A well-known quote, contained in a blockquote element.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Footer -->
+  <footer class="bg-light text-center ">
+    <!-- Grid container -->
+    <div class="container p-4">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- Section: Social media -->
+      <section class="mb-4">
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <a class="btn btn-floating m-1" href="#!" role="button">
+          <img src="img/fb.png" alt="" height="82" border-radius: 50%>
+        </a>
+        <a class="btn btn-floating m-1" href="#!" role="button">
+          <img src="img/ig.jpg" alt="" height="65" border-radius: 50%>
+        </a>
+        <a class="btn btn-floating m-1" href="#!" role="button">
+          <img src="img/twitter.png" alt="" height="60" border-radius: 50%>
+        </a>
+        <a class="btn btn-floating m-1" href="#!" role="button">
+          <img src="img/linkedin.jpg" alt="" height="67" border-radius: 50%>
+        </a>
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Suscríbete a nuestro newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Dirección de email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary mb-4">
+                  Quiero suscribirme
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam,
+            commodi optio pariatur est quia magnam eum harum corrupti dicta,
+            aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+
+
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-dark" href="#">tuplantastore.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>-->
-  </body>
+</body>
+
 </html>
