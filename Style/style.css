@@ -68,16 +68,16 @@
     background-repeat: no-repeat;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-prev {
     position: absolute;
     top: 0;
-    top: 34%;
+    top: 40%;
     bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
+    width: 50px;
     height: 45px;
     padding: 0;
     color: #fff;
@@ -87,7 +87,28 @@
     /* opacity: .5; */
     transition: opacity .15s ease;
     background-color: #264653;
-    border-radius: 50px;
+    border-radius: 0 50px 50px 0;
+}
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    top: 40%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    /* opacity: .5; */
+    transition: opacity .15s ease;
+    background-color: #264653;
+    border-radius: 50px 0 0 50px ;
 }
 .img_footer{
     background-image: url(https://www.vanidades.com/__export/1641432952036/sites/vanidades/img/2022/01/05/como-cuidar-plantas-de-interior.jpg_172596871.jpg);
